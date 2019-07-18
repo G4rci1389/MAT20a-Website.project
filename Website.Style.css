@@ -1,0 +1,295 @@
+body {
+    margin: 0 auto;
+background-image: url(../images/texture-2068283_1920.jpg);
+    background-size: cover %;
+    background-repeat: no-repeat;
+    display: flex;
+
+    }
+
+.home {
+    display: flex;
+    justify-content: space-around;
+}
+.home div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1, h2 {
+    margin: 0;
+}
+img {
+    border-radius: 50%;
+    margin: 50px 50px
+}
+
+.main-about-me {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+     display: flex;
+    justify-content: center;
+    margin: 30px;
+    text-align: left;
+}
+
+.main-about-me p, h1 {
+    
+    padding: 8px;
+    margin: right px;
+}
+
+nav {
+    background-color: #B0E8FF;
+    display: flex;
+   
+    justify-content: space-between;
+    width: 100%;
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 200;
+    font-size: 17px;
+    padding: 4px 10px;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.education p {
+
+    padding: 8px;
+}
+
+.education {
+
+    padding: 30px;
+}
+
+.education h1 {
+    margin-bottom: 45px;
+}
+
+.experience p {
+    margin-bottom: 70px;
+}
+.experience h1 {
+    margin-bottom: 50px;
+}
+
+.experience {
+
+    padding: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0px 30px;
+    width: 100%;
+}
+
+
+nav li {
+
+    padding: 4px 0px;
+    color: black;
+
+}
+
+.bottom {
+    text-align: center;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    
+    position: absolute;
+    bottom: 0%;
+    
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0px;
+   
+
+}
+
+footer ul li {
+    margin: 0 20px;
+}
+
+footer {
+
+    margin: 0px;
+    background-color: #B0E8FF;
+     position: absolute;
+    bottom: 3%;
+    width: 100%;
+    
+    
+}
+
+footer p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    font-weight: 200;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    
+.
+/*
+    background-image: url(../images/texture-2068283_1920.jpg);
+    background-size: cover;
+*/
+
+
+}
+
+/*Contact me*/
+
+
+}
+
+/*******************************/
+
+label {
+    width: 180px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+}
+
+select {
+    width: 213px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+}
+
+textarea {
+    height: 100px;
+    vertical-align: top;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background: lightblue;
+}
+
+input:focus,
+textarea:focus {
+    background: #eee;
+}
+
+:focus {
+    outline: none;
+}
+
+
+
+label {
+    width: 180px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+}
+
+select {
+    width: 213px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+}
+
+textarea {
+    height: 150px;
+    vertical-align: top;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background: lightblue;
+}
+
+input:focus,
+textarea:focus {
+    background: #eee;
+}
+
+:focus {
+    outline: none;
+}
+
+
+nav li:hover{
+    color: blue;
+    background-color:darkgrey;
+}
+
+nav li a:hover{
+    color: blue;
+}

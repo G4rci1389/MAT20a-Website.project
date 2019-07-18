@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio/ContactMe</title>
+
+    <link href="/MAT20a/Website.project/Website.Style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.9.0/css/all.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+
+            <ul>
+
+                <li> <a href="/MAT20a/Website.project/Website.Home.html">Home</a></li>
+                <li><a href="/MAT20a/Website.project/Website.AboutMe.html">About me</a></li>
+                <li><a href="/MAT20a/Website.project/Website.CV.html">Education</a></li>
+                <li><a href="/MAT20a/Website.project/Website.MyProjects.html">Work experience</a></li>
+                <li><a href="/MAT20a/Website.project/Website.ContactMe.html">Contact me!</a></li>
+
+            </ul>
+        </nav>
+
+        <main class="contact-me">
+
+            <form action="evaluate-form.php">
+
+                <label for="fn">First name</label>
+                <input type="text" id="fn" name="firstname" placeholder="write your first name." required><br>
+
+                <label for="fn">Last name</label>
+                <input type="text" id="fn" name="firstname" placeholder="write your last name." required><br>
+
+
+                <label for="bt">Your birthday</label>
+                <input type="date" id="bt" name="birthday"><br>
+
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Write your email adress" required><br>
+
+
+                <label for="country">Where do you come from?</label>
+                <select>
+                    <option value="jp">Japan</option>
+                    <option value="gr">Germany</option>
+                    <option value="pl">Poland</option>
+                    <option value="ks">Kosovo</option>
+                    <option value="tk">Turkey</option>
+                    <option value="sp">Spain</option>
+                    <option>Dominican Republic</option>
+                </select><br><br>
+
+                <input type="radio" name="gender" value="male" id="male" checked><label for="male">male</label><br>
+
+                <input type="radio" name="gender" value="female" id="female"><label for="female">female</label><br><br>
+
+
+                <label for="msg">Your message</label>
+                <textarea id="msg" name="message" placeholder="Min. 200 characters.."></textarea>
+                <br><br>
+
+                <input type="checkbox" name="news" id="news" checked>
+
+                <input type="file">
+
+                <input type="submit" value=">>Send<<" required>
+            </form>
+        </main>
+
+        <footer>
+            <p> You can also find me in:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/gonzalo.garciacarbajosa"> <i class="fab fa-facebook"> Facebook</i></a></li>
+                <li><a href="www.linkedin.com/in/gonzalo-garcía-carbajosa-7764aa64"><i class="fab fa-linkedin-in"> LinkedIn</i></a></li>
+                <li><a href="https://twitter.com/Gonzalo13Garci"><i class="fab fa-twitter"></i> Twitter</a></li>
+            </ul>
+        </footer>
+
+        <div class="bottom">&copy; 2018-2019 Gonzalo García Carbajosa, LLC. None rights reserved. </div>
+
+    </div>
+
+
+
+</body></html>
